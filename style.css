@@ -1,0 +1,452 @@
+a:hover,a:visited, a:active{
+	text-decoration: none;
+}
+.mini-header
+{
+ height: 40px;
+ line-height: 40px;
+ font-size: 12px;
+ color: #506a85;
+ background-color: #f5f7fa;
+}
+.header-contact span:first-child{
+	margin-right: 20px;
+}
+.social-icons {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: right;
+	display: block;
+	width: 100%;
+}
+.social-icons li{
+ display: inline-block;
+ margin: 0 10px;
+}
+.social-icons li:last-child{
+	margin-right: 0px;
+}
+.social-icons li a{
+ font-size: 14px;
+ color: #506a85;
+}
+.social-icons li a:hover, .social-icons li a:active, .social-icons li a:visited{
+	color: #3c5570;
+}
+.main-header {
+	height: 112px;
+	border-bottom: 1px solid #e6e9ed;
+	padding: 35px 0;
+}
+.nav-item{
+	font-weight: bold;
+}
+.nav-item  a{
+	color: #506a85;
+	font-size: 20px;
+}
+/*.menu{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+.menu li:first-child{
+    margin-left: 0;
+}
+.menu li:last-child{
+	float: right;
+}
+.menu li {
+	display: inline-block;
+	margin: 0 15px;
+}
+.menu li a{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	color: #506a85;
+	line-height: 40px;
+}
+.menu li a:hove, .menu li a:visited{
+	color: #3c5570;
+}*/
+/*---------section-2--------------*/
+.featured-area {
+	height: 680px;
+	/*background-image: url('img/bg1.png') no-repeat;*/
+	background: url('img/bg1.png') no-repeat;
+	background-size: cover;
+}
+.featured-area-content {
+	width: 960px;
+	max-width: 100%;
+	color: white;
+	margin: 0 auto;
+	padding-top: 170px;
+
+}
+.featured-area-content h1{
+  display: block;
+  width: 100%;
+  font-size: 78px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0; 
+}
+.featured-area-content p{
+  font-size: 24px;
+  color: #a3b1bf;
+}
+.featured-area-row {
+	margin-bottom: 60px;
+
+}
+.featured-area-btn{
+	background-color: #00bc9c;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	border: none;
+	border-bottom: 2px solid #00a085;
+	padding: 25px 70px;
+}
+.featured-area-btn:hover{
+	background-color: #00a085;
+}
+/*---------section-3------------*/
+.services{
+	padding: 125px 0;
+	background-color: #ffffff;
+	text-align: center;
+}
+.service-head-container{
+	width: 820px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.service-head h2{
+	width: 100%;
+	text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    color: #506a85;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+.service-head p{
+	font-size: 22px;
+	color: #73879c;
+}
+.service-content{
+	margin-top: 60px;
+}
+.service-icon{
+	color: #00bc9c;
+	font-size: 50px;
+}
+.service-text h3{
+	font-size: 26px;
+	color: #506a85;
+	text-align: left;
+}
+.service-text p{
+	font-size: 16px;
+	color: #73879c;
+	text-align: left;
+}
+.service-col .service-icon, .service-col .service-text{
+	float: left;
+}
+.service-col .service-icon{
+	width: 80px;
+	text-align: left;
+}
+.service-col .service-text{
+	width: calc(100% - 80px);
+}
+/*----------section-4------------*/
+.home-posts{
+    padding: 110px 0;
+    background-color: #f2f5f7;
+}
+.section-head h2, .section-head p{
+	width: 100%;
+	text-align: center;
+}
+.section-head h2{
+	font-size: 44px;
+	color: #506a85;
+	margin-bottom: 20px;
+}
+.section-head p{
+	font-size: 22px;
+	color: #73879c;
+}
+.latest-posts {
+	margin-top: 60px;
+}
+.post-inner-col{
+	background-color: #ffffff;
+}
+.post-meta{
+	padding: 15px;
+}
+.post-meta h4, .post-meta p{
+	width: 100%;
+}
+.post-meta h4{
+	font-size: 20px;
+	color: #506a85;
+}
+.post-meta p{
+	font-size: 14px;
+	color: #738739;
+}
+.carousel-row {
+	margin-top: 80px;
+}
+.owl-dots{
+	text-align: center;
+	margin-top: 50px;
+}
+.owl-dots button{
+	display: inline-block;
+	border: 8px solid #506a85 !important;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+.owl-dots button.active{
+	border-color: #00bc9c !important;
+}
+/*----------section-5--------------*/
+.work-section{
+	height: 450px;
+}
+.work-section-content {
+	width: 960px;
+	max-width: 100%;
+	color: white;
+	margin: 0 auto;
+	padding-top: 140px;
+}
+.work-section-row h2{
+  display: block;
+  width: 100%;
+  color: black;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+.work-section-row p{
+	 font-size: 20px;
+     color: #a3b1bf;
+     padding-bottom: 20px;
+}
+.work-area-btn{
+	background-color: #00bc9c;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	border: none;
+	border-bottom: 2px solid #00bc9c;
+	padding: 15px 40px;
+	margin-bottom: 100px;
+}
+.work-area-btn:hover{
+	background-color: #00a085;
+}
+/*///////////////section-6/////////////*/
+.footer-details{
+	height: 400px;
+	background-color: #2f4052;
+}
+.footer-details-content{
+   margin-top: 70px;
+}
+.footer-details-content h2{
+	color: white;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+.footer-details-content img{
+	margin-bottom: 20px;
+}
+.footer-details-content span{
+	margin-top: 20px;
+	color: #8695a4;
+}
+.footer-details-content p{
+	color: #8695a4;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.footer-details-content-data h2{
+    color: white;
+	margin-top: 70px;
+	font-size: 30px;
+}
+.footer-details-content-data h6{
+	color: #8695a4;
+	margin-top: 20px;
+}
+.footer-details-content-data p{
+	margin: 20px auto;
+	color: #8695a4;
+}
+.email-box{
+  margin: 30px auto;
+  height: 40px;
+  justify-content: center;
+  display: flex; /*its better to use inline-flex*/
+}
+.email-box i{
+  background: #00bc9c;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,.btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 200px;
+  padding: 0 5px;
+}
+.btn{
+  background: #00bc9c;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.image-footer img{
+	margin-left: 38px;
+}
+.img-footeer {
+	padding-top: -20px;
+}
+.footeer-2{
+	background-color: #283645;
+}
+.copyright p{
+    margin-top: 5px;
+    color: #5e6c7a;
+    font-size: 16px;
+    font-weight: bold;
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #3c5065;
+  bottom: 10px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+/*---------------------Media Quries---------------------*/
+/********** Large devices only **********/
+@media (min-width: 1200px){
+
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+  .footer-details-content-data{
+    padding-left: 55px;
+    margin-bottom: 30px;
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+      	.footer-details{
+	height: 576px;
+	background-color: #2f4052;
+}
+.footer-details-content{
+	margin-left: -13px;
+}
+.footer-details-content-data{
+    margin-left: 10px;
+    padding-left: 55px;
+}
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+	.footer-details{
+	height: 1500px;
+	background-color: #2f4052;
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #3c5065;
+  bottom: 10px;
+  right: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+}
+@media all and (max-width: 576px){
+	.header-contact{
+		display: none;
+	}
+	.main-header{
+		position: relative;
+	}
+	.nav-item li:last-child{
+       display: none;
+	}
+
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px){
+   .featured-area {
+	height: 780px;
+	background: url('img/bg1.png') no-repeat;
+	background-size: cover;
+}
+.featured-area-content h1{
+  display: block;
+  width: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0; 
+}
+.featured-area-btn{
+	font-size: 20px;
+	padding: 10px 40px;
+}
+  .footer-details{
+	height: 1600px;
+	background-color: #2f4052;
+}
+   .work-area-btn{
+    margin-bottom: 30px;
+}
+.gotopbtn{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+}
+}
